@@ -19,7 +19,7 @@ client.on('ready', function(){
     type: 1,
      url: 'https://www.twitch.tv/skwadraa',
     name: 'I AM CUTE',
-    application_id: '503715759189655573',
+    application_id: '477187715658547201',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
   
@@ -28,8 +28,8 @@ client.on('ready', function(){
     });
     }, 5000);
 });
-const devs = ["332713449215754242"];
-const prefix = "R"
+const devs = [`439187325503930369`,`370308123153661974`,`332713449215754242`];
+const prefix = "`"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
   if (!devs.includes(msg.author.id)) return;
